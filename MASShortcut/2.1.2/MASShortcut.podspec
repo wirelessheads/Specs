@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'MASShortcut'
-  s.version               = '2.1.1'
+  s.version               = '2.1.2'
   s.summary               = 'Modern framework for managing global keyboard shortcuts compatible with Mac App Store'
   s.homepage              = 'https://github.com/shpakovski/MASShortcut'
   s.license               = 'BSD 2-clause'
