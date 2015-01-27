@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   }
 
   s.platform = :osx, '10.7'
-  s.source   = { :http => "https://github.com/sparkle-project/Sparkle/releases/download/1.9.0rc1/Sparkle-1.9.0.tar.bz2" }
+  s.source   = { :http => "https://github.com/sparkle-project/Sparkle/releases/download/#{s.version}/Sparkle-#{s.version}.tar.bz2" }
   s.public_header_files = 'Sparkle.framework/Headers/*.h'
   s.vendored_framework  = 'Sparkle.framework'
   s.resources           = 'Sparkle.framework'
