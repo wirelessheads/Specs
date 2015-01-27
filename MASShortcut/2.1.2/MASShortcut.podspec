@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.platform              = :osx
   s.osx.deployment_target = "10.6"
-  s.source                = { :git => 'https://github.com/stel/MASShortcut.git', :master }
+  s.source                = { :git => 'https://github.com/stel/MASShortcut.git' }
   s.source_files          = 'Framework/*.{h,m}'
   s.exclude_files         = 'Framework/*Tests.m'
   s.osx.frameworks        = 'Carbon', 'AppKit'
